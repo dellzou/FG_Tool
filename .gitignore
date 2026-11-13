@@ -1,0 +1,6 @@
+# 构建产物
+/FG_Tool.exe
+/bin/
+/obj/
+*.pdb
+*.user
