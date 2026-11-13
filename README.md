@@ -20,10 +20,11 @@
 ## 怎么用
 
 1. 连上光猫的 WiFi
-2. 双击 `FG_Tool.exe`（地址默认 `192.168.2.1`）
-3. 点「探测设备 & MAC」
-4. 点「一键开启 telnet + 取超管」，三组凭据自动填进框里
-5. 用任意终端软件（Windows telnet 客户端 / MobaXterm / PuTTY）按框里凭据登录，再 `su` 提权
+2. 取到 `FG_Tool.exe`：从 [Releases](https://github.com/dellzou/FG_Tool/releases/latest) 下载，或者直接点仓库里的 [`FG_Tool.exe`](./FG_Tool.exe)
+3. 双击运行（地址默认 `192.168.2.1`）
+4. 点「探测设备 & MAC」
+5. 点「一键开启 telnet + 取超管」，三组凭据自动填进框里
+6. 用任意终端软件（Windows telnet 客户端 / MobaXterm / PuTTY）按框里凭据登录，再 `su` 提权
 
 运行环境：Windows 10/11，依赖系统自带 .NET Framework 4.x，不需要装 Python 或其他运行时。
 
